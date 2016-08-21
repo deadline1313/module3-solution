@@ -1,0 +1,131 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: blue;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+	background-color: red;
+	border-radius: 0;
+	border:0 ;
+}
+
+.navbar-brand {
+	padding-top: 20px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+	font-family: sans-serif;
+	color: white;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-brand p { /* Kosher cert */
+	color: #000;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+
+.navbar-brand p span {/* Star-K */
+	vertical-align: middle;
+}
+
+
+#collapsable-nav {
+	text-align: center;
+	border: 0;
+}
+#nav-list {
+	margin-top: 10px;
+	background: white;
+
+}
+
+#nav-list a{
+	color: #951C49;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+
+}
+
+
+#menu-tile {
+	width: 100%;
+	margin-bottom: 15px;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	text-align: center;
+	background-color: yellow;
+	height: 1000px;
+	color: black;
+}
+
+
+#menu-tile span {
+	width: 100%;
+	text-align: justify;
+	color: white;
+	padding: 10px;
+	color: black;
+}
+
+
+/*End of Home Page*/
+/* Large devices*/
+@media (min-width: 1200px) {
+	/*#nav-list span {
+	visibility: hidden;
+}
+}
+
+/* Medium devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+/* Header */
+/*	#nav-list span {
+	visibility: hidden;
+}
+}
+
+/* Small devices only */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Extra Small devices only */
+@media (max-width: 767px) {
+	/* Header */
+}
+
+/*** Super Extra small devices only ex iphone 4 ****/
+@media (max-width: 479px) {
+
+	/* Home page */
+
+}
